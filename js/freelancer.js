@@ -40,6 +40,43 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });
+
+    $("a[href='#portfolioModal_Botit']").on('click',function(){
+        
+        $("#portfolioModal_Botit").load().find('.modal-body').find('.img-body')
+          .html("<img class='img-responsive img-centered' src='img/screens/Botit/0.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/1.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/2.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/3.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/4.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/5.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/6.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/7.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/8.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/9.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/10.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/11.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/12.png' alt='description' />")
+          .append("<img class='img-responsive img-centered' src='img/screens/Botit/13.png' alt='description' />");
+
+});
+
+$("a[href='#portfolioModal_Aseel']").on('click',function(){
+    $("#portfolioModal_Aseel").load().find('.modal-body').find('.img-body')
+      .html("<img class='img-responsive img-centered' src='img/screens/Aseel/0.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/1.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/2.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/3.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/4.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/5.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/6.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/7.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/8.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/9.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/10.png' alt='description' />")
+      .append("<img class='img-responsive img-centered' src='img/screens/Aseel/11.png' alt='description' />");
+});
+
     $("a[href='#portfolioModal1']").on('click',function(){
         
             $("#portfolioModal1").load().find('.modal-body').find('.img-body')
