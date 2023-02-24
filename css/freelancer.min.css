@@ -326,6 +326,9 @@ footer .footer-below {
     transition: all .3s ease-in-out;
     margin-top: 15px
 }
+footer .row {
+    padding-bottom: 50px;
+}
 .btn-outline.active,
 .btn-outline:active,
 .btn-outline:focus,
