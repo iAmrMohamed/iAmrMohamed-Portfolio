@@ -112,10 +112,10 @@ header .intro-text .skills {
         padding-bottom: 50px
     }
     header .intro-text .name {
-        font-size: 4.75em
+        font-size: 4em
     }
     header .intro-text .skills {
-        font-size: 3.75em
+        font-size: 2.5em
     }
 }
 .navbar-custom {
